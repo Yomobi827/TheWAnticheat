@@ -3,7 +3,7 @@ game.ReplicatedStorage.Events.Anticheat.PlayerBanned.OnServerEvent:Connect(funct
     local PlayerList = game.Players:GetChildren()
     for i, v in PlayerList do
         if v == plr then
-            warn("AntiCheatServerSide Error Code 1, contact developers immedietly")
+            warn("AntiCheatServerSide Error Code 1")
             return "AntiCheatServerSide Error Code 1"
         end
     end
